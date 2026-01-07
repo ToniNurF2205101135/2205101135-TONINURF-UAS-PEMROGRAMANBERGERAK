@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF7F6">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- HEADER -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEWA PS"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="#3F51B5"
+            android:padding="16dp"/>
+
+        <!-- SPACING -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp"/>
+
+        <!-- LOGO -->
+
+        <!-- APP NAME -->
+
+        <!-- TAGLINE -->
+
+        <!-- SPACING -->
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/logo_ps"
+            android:scaleType="fitCenter"
+            android:contentDescription="Logo Toni Rental PS" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp"/>
+
+        <!-- KLIK PILIHAN -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Klik pilihan:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- BUTTON INFORMASI -->
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INFORMASI PS"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3F51B5"/>
+
+        <!-- BUTTON SEWA -->
+        <Button
+            android:id="@+id/btnSewa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEWA PS"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3F51B5"
+            android:layout_marginTop="12dp"/>
+
+
+
+        <Button
+            android:id="@+id/btnRiwayat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RIWAYAT SEWA"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3F51B5"
+            android:layout_marginTop="16dp"/>
+
+        <!-- BUTTON CONTACT -->
+        <Button
+            android:id="@+id/btnContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTACT"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3F51B5"
+            android:layout_marginTop="12dp"/>
+        <!-- BUTTON KELUAR APLIKASI -->
+        <Button
+            android:id="@+id/btnKeluar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KELUAR APLIKASI"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E53935"
+            android:layout_marginTop="16dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRiwayat"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="8dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
